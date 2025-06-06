@@ -20,3 +20,19 @@ Se encuentra en el archivo "crud_operations02.py"
 Este ejemplo de agno muestra como usar la clase memory para crear persistencia en memoria
 
 El archivo asociado es "persistencia_memoria03.py"
+
+# Creación de memorias a medida
+
+Muestra como crear memorias de usuario con un agente IA usando cada texto o una lista de textos se usó Gemini y ChatGPT.
+
+El archivo asociado es: "custom_memory04.py"
+
+# Buscando en memoria (Memory Search):
+
+Muestra como buscar en las memorias de usuario mediante diferentes métodos de busqueda.
+
+- last_n: buscando los últimos n elementos.
+- first_n: buscando los primeros n elementos.
+- semantic: Busqueda por coincidencia semantica.
+
+El archivo asociados es: "memory_search05.py"
