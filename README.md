@@ -1,4 +1,6 @@
-## Prueba de memoria para agentes en Agno
+## Introducción:
+
+Desarrollo basado en los ejemplos para la creación de agentes con agno, disponibles en [Agno Documents](https://docs.agno.com/examples/concepts/memory/00-built-in-memory "Build-in     Memory")
 
 # 01 Buid-in memory (incorpororación de memoria)
 
@@ -15,19 +17,19 @@ las operaciones hacen regerencia a:
 
 Se encuentra en el archivo "crud_operations02.py"
 
-# 03 Persistencia en memoria con SQLite
+# 03 Persistencia en memoria con SQLite (Persistent memory with SQLite)
 
 Este ejemplo de agno muestra como usar la clase memory para crear persistencia en memoria
 
 El archivo asociado es "persistencia_memoria03.py"
 
-# Creación de memorias a medida
+# 04 Creación de memorias a medida (Custum memory creation)
 
 Muestra como crear memorias de usuario con un agente IA usando cada texto o una lista de textos se usó Gemini y ChatGPT.
 
 El archivo asociado es: "custom_memory04.py"
 
-# Buscando en memoria (Memory Search):
+# 05 Buscando en memoria (Memory Search):
 
 Muestra como buscar en las memorias de usuario mediante diferentes métodos de busqueda.
 
@@ -37,15 +39,15 @@ Muestra como buscar en las memorias de usuario mediante diferentes métodos de b
 
 El archivo asociados es: "memory_search05.py"
 
-# Persistencia en memoria con Agente: (Agent whit memory):
+# 06 Persistencia en memoria con Agente: (Agent whit memory):
 
-Muestra cómo se configura el agente para que conserve su memoria a traves de las diferentes ejecuciones y el mismo agente guarde las memorias de usurio.
+Muestra cómo se configura el agente para que conserve su memoria después de cada ejecución.
 
 Específicamente con la **propiedad enable_user_memory=True** de la configuración del agente
 
 El archivo asociado es: "agent_whit_memory06.py"
 
-# Persistencia de memoria durante la ejecución (Agentic memory):
+# 07 Persistencia de memoria durante la ejecución (Agentic memory):
 
 Muestra la configuración que se debe dar al agente para que cree, edite y borre memorias
 
