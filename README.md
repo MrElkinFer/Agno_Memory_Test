@@ -36,3 +36,19 @@ Muestra como buscar en las memorias de usuario mediante diferentes métodos de b
 - semantic: Busqueda por coincidencia semantica.
 
 El archivo asociados es: "memory_search05.py"
+
+# Persistencia en memoria con Agente: (Agent whit memory):
+
+Muestra cómo se configura el agente para que conserve su memoria a traves de las diferentes ejecuciones y el mismo agente guarde las memorias de usurio.
+
+Específicamente con la **propiedad enable_user_memory=True** de la configuración del agente
+
+El archivo asociado es: "agent_whit_memory06.py"
+
+# Persistencia de memoria durante la ejecución (Agentic memory):
+
+Muestra la configuración que se debe dar al agente para que cree, edite y borre memorias
+
+Específicamente con la propiedad **enable_agentic_memory=True** en la configuración del agente.
+
+El archivo asociado es: ".py"
