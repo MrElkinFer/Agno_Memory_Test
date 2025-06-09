@@ -82,3 +82,13 @@ El archivo asociado es: **"session_memory08.py"**
 ---
 
 # Multiples Agentes compartiendo memoria: (Multi Agents sharing memory)
+
+Se muestra cómo varios agentes puende usar la misma memoria para atender una tarea.
+
+El archivo asociado es: **agent_share_memory09.py**
+
+---
+
+# Manipulación del administrador de memoria y los resumenes de sesión. (Custom memory):
+
+El archivo asociado es: **10custom_memory.py**
