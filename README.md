@@ -57,7 +57,7 @@ Muestra cómo se configura el agente para que conserve su memoria después de ca
 
 Específicamente con la **propiedad enable_user_memory=True** de la configuración del agente
 
-El archivo asociado es: "agent_whit_memory06.py"
+El archivo asociado es: **"agent_whit_memory06.py"**
 
 ---
 
@@ -67,6 +67,18 @@ Muestra la configuración que se debe dar al agente para que cree, edite y borre
 
 Específicamente con la propiedad **enable_agentic_memory=True** en la configuración del agente.
 
-El archivo asociado es: ".py"
+El archivo asociado es: **"agentic_memory07.py"**
 
 ---
+
+# 08 Agentes con memoria de sesiones (Agents with session summaries)
+
+El ejemplo muestra cómo crear resumenes de sesiones desde la configuración del agente en Agno.
+
+Utilizado la configuración **"enable_session_summaries= True**
+
+El archivo asociado es: **"session_memory08.py"**
+
+---
+
+# Multiples Agentes compartiendo memoria: (Multi Agents sharing memory)
