@@ -81,7 +81,7 @@ El archivo asociado es: **"session_memory08.py"**
 
 ---
 
-# Multiples Agentes compartiendo memoria: (Multi Agents sharing memory)
+# 09 Multiples Agentes compartiendo memoria: (Multi Agents sharing memory)
 
 Se muestra cómo varios agentes puende usar la misma memoria para atender una tarea.
 
@@ -89,6 +89,35 @@ El archivo asociado es: **agent_share_memory09.py**
 
 ---
 
-# Manipulación del administrador de memoria y los resumenes de sesión. (Custom memory):
+# 10 Manipulación del administrador de memoria y los resumenes de sesión. (Custom memory):
 
 El archivo asociado es: **10custom_memory.py**
+
+Se Muestra cómo hacer para que el manejador de memoria **Memory Manager** y el resumen de sesión **resumen summarizer**, puedan se personalizados. Para el ejemplo se busca que el manejador de memoria no guarde el nombre del usuario y por parte de el generador de resumen tenga un tono "informal" al realizar su tarea.
+
+Para esto se utiliza:
+
+```Python
+  # Libreria
+  from agno.memory.v2.memory import Memory, SessionSummarizer, MemoryManager
+```
+
+el archivo asociado a este ejemplo es: "**10custom_memory.py"**
+
+---
+
+# 11 Manejo de memoria con multiples usuarios en multiples sesiones (Multi-Users Multi-Sessions Chat):
+
+El ejemplo muestra cómo se debe configurar para gestionar la memoria cuando se tiene multiples usuarios y multiples sesiones trabajando al tiempo. En otras palabras, como gestionar la memoria de los agentes asíncronamente "Async".
+
+Lo importante del ejemplo es ver el uso de las herramientas propias de agno para el manejo asíncrono, en este caso: **aprint_response()**, para el manejo de memoria.
+
+**NOTA:** Es el ejemplo más costoso en recursos para el LLM.
+
+El arichivo asociado a este ejemplo es: **11multi_user_multisessions.py**
+
+---
+
+# 12 Manejo de multiples usuarios en multiples sesiones con concurrencia (Multi-User Multi-Session Chat Concurrent)
+
+El archivo asociado a este ejemplo es: **12multi_concurrent.py**
